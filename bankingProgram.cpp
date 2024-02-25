@@ -5,7 +5,7 @@
 using std::cin;
 using std::cout;
 using std::endl;
-using std::getline;
+using std::getline ;
 using std::string;
 
 void showBalance(int balance);
