@@ -29,9 +29,8 @@ int main(void)
         {0, 4, 0, 0, 5, 0, 0, 3, 6},
         {7, 0, 3, 0, 1, 8, 0, 0, 0},
     };
-    // cout << sudoku[0].size() << endl;
     vector<vector<int>> sudokuVector(row, vector<int>(col));
-    drawBoard(sudokuVector, row, col);
+    // drawBoard(sudokuVector, row, col);
     cout << "Now solving the sudoku: " << endl;
     cout << "-----------------------" << endl;
     for (int i = 0; i < row; ++i) {
